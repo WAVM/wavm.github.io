@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+  <div class="container-narrow">
+  <h1>{{post.title}}</h1>
+  <div class="post-body">{{post.content}}</div>
+  </div>
+{% endfor %}

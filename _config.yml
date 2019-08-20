@@ -1,0 +1,12 @@
+name: WAVM
+
+exclude: [
+  Gemfile,
+  Gemfile.lock
+]
+
+destination: _site
+
+permalink: pretty
+
+defaults:

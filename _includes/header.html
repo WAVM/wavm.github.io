@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>WAVM</title>
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+
+<body>
+  <header class="page-section">
+    <div class="container-narrow">
+    <a href="/"><div class="site-logo"></div></a>
+    <nav class="site-nav">
+        <a class="site-nav-item btn" href="/">Overview</a>
+        <!-- <a class="site-nav-item btn" href="/GettingStarted/">Getting Started</a> -->
+        <a class="site-nav-item btn" href="https://github.com/WAVM/WAVM">GitHub</a>
+        <!-- <a class="site-nav-item btn" href="/News/">News</a> -->
+    </nav>
+    </div>
+  </header>
+  {% if page.lead %}
+  <section class="page-section-spacious flush-bottom">
+    <div class="container-narrow">
+      <p class="lead">{{page.lead}}</p>
+    </div>
+  </section>
+  {% endif %}
