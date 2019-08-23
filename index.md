@@ -35,9 +35,9 @@ lead: WAVM is a WebAssembly virtual machine, designed for use in non-web applica
   </div>
   <div class="col-xs-12 col-md-6">
     <h3>Portable</h3>
-    <p>WAVM is tested on, and fully supports X86-64 Windows, MacOS, and Linux. It is designed to run on any POSIX-compatible system, but is not routinely tested on other systems.</p>
-    <p>Supported for AArch64 is <a href="https://github.com/WAVM/WAVM/issues/76">planned</a>.</p>
-    <p>WAVM is mostly written in portable C/C++, but has a small amount of X86-64 assembly code. It also uses a few of LLVM's X86-specific intrinsics for the WebAssembly SIMD extension. As a result, WAVM currently only supports X86-64, and adding support for other CPU architectures will require writing a small amount of architecture-specific code.</p>
-    <p>WAVM's design also assumes 64-bit addresses, and so is not portable to 32-bit architectures.</p>
+    <p>WAVM is written in portable C/C++, with a small amount of architecture-specific assembly and LLVM IR generation code.</p>
+    <p>WAVM is tested on and fully supports X86-64 Windows, MacOS, and Linux. It is designed to run on any POSIX-compatible system, but is not routinely tested on other systems.</p>
+    <p>Support for AArch64 is a <a href="https://github.com/WAVM/WAVM/issues/76">work-in-progress</a>. WAVM mostly works on AArch64 Linux, but with some known bugs with handling WebAssembly stack overflow and partially out-of-bounds stores.</p>
+    <p>WAVM's runtime requires a 64-bit virtual address space, and so is not portable to 32-bit hosts. However, WAVM's assembler and disassembler work on 32-bit hosts.</p>
   </div>
 </div>
