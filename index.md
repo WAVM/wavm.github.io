@@ -18,19 +18,18 @@ lead: WAVM is a WebAssembly virtual machine, designed for use in non-web applica
 <div class="row">
   <div class="col-xs-12 col-md-6">
     <h3>WebAssembly 1.0+</h3>
-    <p>WAVM passes all tests in the WebAssembly reference <a href="https://github.com/WebAssembly/spec/tree/master/test/core">test suite</a>.</p>
-    <p>WAVM also includes implementations of many proposed WebAssembly extensions:</p>
+    <p>WAVM fully supports WebAssembly 1.0, plus many proposed extensions to it:</p>
     <ul>
+      <li><a href="https://github.com/WebAssembly/WASI">WASI</a></li>
+      <li><a href="https://github.com/WebAssembly/simd">128-bit SIMD</a></li>
+      <li><a href="https://github.com/WebAssembly/threads">Threads</a></li>
+      <li><a href="https://github.com/WebAssembly/reference-types">Reference types</a></li>
+      <li><a href="https://github.com/WebAssembly/multi-value">Multiple results and block parameters</a></li>
+      <li><a href="https://github.com/webassembly/bulk-memory-operations">Bulk memory operations</a></li>
       <li><a href="https://github.com/WebAssembly/nontrapping-float-to-int-conversions">Non-trapping float-to-int conversions</a></li>
       <li><a href="https://github.com/WebAssembly/sign-extension-ops">Sign-extension instructions</a></li>
-      <li><a href="https://github.com/WebAssembly/multi-value">Multiple results and block parameters</a></li>
-      <li><a href="https://github.com/WebAssembly/reference-types">Reference types</a></li>
-      <li><a href="https://github.com/webassembly/bulk-memory-operations">Bulk memory operations</a></li>
-      <li><a href="https://github.com/WebAssembly/threads">Threads</a></li>
-      <li><a href="https://github.com/WebAssembly/simd">128-bit SIMD</a></li>
       <li><a href="https://github.com/WebAssembly/exception-handling">Exception handling</a></li>
       <li><a href="https://github.com/WebAssembly/extended-name-section">Extended name section</a></li>
-      <li><a href="https://github.com/WebAssembly/WASI">WASI</a></li>
     </ul>
   </div>
   <div class="col-xs-12 col-md-6">
