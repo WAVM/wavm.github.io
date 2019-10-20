@@ -30,6 +30,7 @@ lead: WAVM is a WebAssembly virtual machine, designed for use in non-web applica
       <li><a href="https://github.com/WebAssembly/sign-extension-ops">Sign-extension instructions</a></li>
       <li><a href="https://github.com/WebAssembly/exception-handling">Exception handling</a></li>
       <li><a href="https://github.com/WebAssembly/extended-name-section">Extended name section</a></li>
+      <li><a href="https://github.com/WebAssembly/multi-memory">Multiple memories</a></li>
     </ul>
   </div>
   <div class="col-xs-12 col-md-6">
