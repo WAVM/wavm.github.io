@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WAVM
-lead: WAVM is a WebAssembly virtual machine, designed for use in non-web applications.
+lead: WAVM is a WebAssembly virtual machine, designed for use in non-browser applications.
 ---
 <div class="row">
   <div class="col-xs-12 col-md-6">
